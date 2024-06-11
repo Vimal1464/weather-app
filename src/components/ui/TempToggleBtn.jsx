@@ -1,13 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-const TempToggleBtn = ({name, activeValue}) => {
-  const [isActive, setIsActive] = useState(activeValue);
-  
+const TempToggleBtn = ({ setC, isC, name }) => {
   return (
     <>
-      <button  className={isActive ? 'TempToggleBtn active' : 'TempToggleBtn'} >{name}</button>
+      <button
+        onClick={setC}
+        className={isC ? "TempToggleBtn active" : "TempToggleBtn"}
+      >
+        {name}
+      </button>
     </>
-  )
-}
+  );
+};
 
 export default TempToggleBtn;

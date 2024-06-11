@@ -11,6 +11,10 @@
     min-height: 17.6rem;
 }
 
+.DayWiseTempCard.Active {
+    border: 1px solid #E5E5E5;
+}
+
 .DayWiseTempCard p {
     color: #161616;
     font-size: 15.875px;

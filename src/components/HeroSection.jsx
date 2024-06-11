@@ -5,8 +5,8 @@ import tempPng from '../../src/assests/sunnyPng.png';
 import tempbgImg from '../../src/assests/sunnyImage.png';
 
 
-const HeroSection = () => {
-    const [bgImage, setBgImage] = useState(tempbgImg);
+const HeroSection = ({data,isC,bgImage}) => {
+    
  
   return (
     <>
@@ -18,7 +18,7 @@ const HeroSection = () => {
                 <p>{HeroSectionContent.paragragh}</p>
             </div>
             <div className="tempCard_right">
-                <TempTransCard icon={tempPng} />
+                <TempTransCard data={data} isC={isC} icon={tempPng} />
             </div>
         </div>
 
