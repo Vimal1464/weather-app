@@ -1,0 +1,131 @@
+.main_home {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.main_home_inner{
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.HeroSection {
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeroSection_inner {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeroSection_inner .title_left {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.HeroSection_inner .title_left .subtitle {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.HeroSection_inner .title_left .subtitle .line {
+    height: .2rem;
+    width: 3rem;
+    background-color: var(--white);
+}
+
+.HeroSection_inner .title_left p {
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.57px;
+}
+
+.HeroSection_inner .title_left .subtitle p {
+    color: var(--white);
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.HeroSection_inner .title_left h1 {
+    color: #252222;
+    font-size: 69px;
+    font-weight: 400;
+}
+
+
+/* transparent card */
+
+.TempTransCard {
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.79) 0%, rgba(240, 245, 255, 0.00) 100%);
+    width: 502px;
+    /* height: 588px; */
+    flex-shrink: 0;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.TempTransCard .icon {
+    min-width: 6rem;
+    width: 6rem;
+    height: 6rem;
+    float: right;
+}
+
+.TempTransCard .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TempTransCard .content h6 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.115px;
+}
+.TempTransCard .content h1 {
+    color: #000;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 600;
+    letter-spacing: -0.475px;
+    line-height: 95px;
+}
+.daywise_cards{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.daywise_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.daywise_section .headBTns{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
